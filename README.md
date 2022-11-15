@@ -1,5 +1,23 @@
-<div align="center">
-<h1 align="center">About Me</h1>
+<div align="left">
+<h1 align="left">About Me</h1>
+
+  
+```js
+  package com.bruno.me.entities
+
+  public class Me {
+    String nome = "Bruno Totoli";
+    String area = "Desenvolvedor Java";
+    String trabalho = "Estudando (Aberto a vagas)";
+    String local = "Goias";
+}
+
+public class Skills {
+    List<String> linguagens = List.of("Java","TypeScript");
+    List<String> frameworks = List.of("Angular", "SpringBoot");
+    List<String> databases = List.of("Postgres","MySql","MongoDB");
+}
+```
 </div>
 
 
